@@ -20,7 +20,6 @@ describe('BudgetService', () => {
   });
   it('should create new budget', () => {
     const mockData: CreateBudgetDto = {
-      // id: 2,
       lesson: false,
       workOut: false,
       breakingTime: '10:30 AM',
